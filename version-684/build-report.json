@@ -1,0 +1,10 @@
+{
+  "movies_parsed": 2000,
+  "detail_pages": 2000,
+  "category_pages": 10,
+  "html_pages_total": 2015,
+  "category_coverage": 2000,
+  "missing_baidu_html": [],
+  "generated_image_files": [],
+  "zip_size_bytes": 9896516
+}

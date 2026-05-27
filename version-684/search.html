@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>影片搜索-欧美热门影片-热门影片片库-高清视频在线播放</title>
+  <meta name="description" content="欧美热门影片栏目聚合关注度较高的电影内容，按题材、热度和片单整理，方便浏览。">
+  <meta name="keywords" content="影片搜索,欧美热门影片,欧美影片,热门影片片库,高清播放,精选影片,高分欧美影片,电影分类">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-base="">
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="返回首页">
+      <span class="brand-mark">▶</span>
+      <span class="brand-text">欧美热门影片</span>
+    </a>
+    <button class="mobile-menu-button" type="button" data-menu-button aria-label="展开导航">☰</button>
+    <nav class="main-nav" data-main-nav>
+      <a class="nav-link" href="index.html">首页</a>
+      <a class="nav-link" href="categories.html">分类</a>
+      <a class="nav-link" href="ranking.html">热播榜</a>
+      <a class="nav-link" href="sitemap.html">片库索引</a>
+    </nav>
+    <form class="header-search" action="search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片、地区、年份" autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+  </div>
+</header>
+<main class="page-main">
+  <section class="page-hero container">
+    <span class="eyebrow">片库搜索</span>
+    <h1>搜索影片</h1>
+    <p>可按片名、地区、题材、年份搜索，结果直接链接到静态详情页。</p>
+  </section>
+  <section class="container search-page-panel">
+    <form class="wide-search" id="searchPageForm" action="search.html" method="get">
+      <input type="search" name="q" id="searchPageInput" placeholder="输入关键词" autofocus>
+      <button type="submit">搜索</button>
+    </form>
+    <div class="search-status" id="searchStatus">请输入关键词进行搜索</div>
+    <div class="movie-grid" id="searchResults"></div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="footer-logo">欧美热门影片</div>
+      <p>欧美热门影片栏目聚合关注度较高的电影内容，按题材、热度和片单整理，方便浏览。</p>
+    </div>
+    <div class="footer-links">
+      <a href="index.html">首页</a>
+      <a href="categories.html">分类总览</a>
+      <a href="ranking.html">热播榜</a>
+      <a href="sitemap.html">片库索引</a>
+    </div>
+  </div>
+</footer>
+<script src="assets/search-data.js"></script>
+<script src="assets/site.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

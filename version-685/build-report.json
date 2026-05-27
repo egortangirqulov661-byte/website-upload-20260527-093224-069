@@ -1,0 +1,11 @@
+{
+  "parsed_movies": 2000,
+  "detail_pages": 2000,
+  "category_pages": 12,
+  "category_coverage": 2000,
+  "index_movie_cards": 2024,
+  "all_html_pages": 2017,
+  "analytics_in_all_html": true,
+  "logo": "电影大全",
+  "m3u8_sources": 20
+}
